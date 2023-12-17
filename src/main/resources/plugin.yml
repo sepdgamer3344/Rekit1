@@ -2,6 +2,7 @@ name: RekitPlugin
 version: 1.0.0
 main: dev.sepd.rekitplugin.RekitPlugin
 author: Sepd , Ammar
+api: 1.20
 api-version: 1.20.1
 description: A plugin that allows players to create and manage kits and regions.
 
