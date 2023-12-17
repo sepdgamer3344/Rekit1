@@ -35,6 +35,7 @@ public class RekitPlugin extends JavaPlugin implements Listener {
         getServer().getPluginManager().registerEvents(this, this);
 
         // Load configurations
+        saveDefaultConfig();
         loadConfigurations();
     }
 
