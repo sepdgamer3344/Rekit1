@@ -21,6 +21,7 @@ public class RegionManager {
         this.messageManager = messageManager;
     }
 
+
     public void handleCreateRegion(Player player, String regionName, String kitName) {
         if (regionSelections.containsKey(player)) {
             Location point1 = regionSelections.remove(player);
@@ -33,12 +34,14 @@ public class RegionManager {
         }
     }
 
-    public void handleLeftClick(Player player, Location location) {
+    private void handleLeftClick(Player player, Location location) {
         // Implementation for handling left-click
+        player.sendMessage(messageManager.getFormattedMessage("wandLeftClick", location.getX(), location.getY(), location.getZ()));
     }
 
-    public void handleRightClick(Player player, Location location) {
+    private void handleRightClick(Player player, Location location) {
         // Implementation for handling right-click
+        player.sendMessage(messageManager.getFormattedMessage("wandRightClick", location.getX(), location.getY(), location.getZ()));
     }
 
     public String getRegionName(Location location) {

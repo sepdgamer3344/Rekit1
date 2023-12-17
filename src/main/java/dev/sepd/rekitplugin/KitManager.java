@@ -28,7 +28,7 @@ public class KitManager {
     }
 
     public void giveSelectionWand(Player player) {
-        // Implementation for giving a selection wand to a player
+        player.getInventory().addItem(getSelectionWand());
     }
 
     public void reloadConfigurations() {
