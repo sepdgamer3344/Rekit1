@@ -1,0 +1,30 @@
+kits:
+  region1:
+    kit1:
+      - DIAMOND_SWORD
+      - IRON_HELMET
+    kit2:
+      - GOLDEN_APPLE
+      - BOW
+      - ARROW
+    kit3:
+      - IRON_SWORD
+      - DIAMOND_CHESTPLATE
+    kit4:
+      - COOKED_BEEF
+      - IRON_AXE
+      - SHIELD
+  region2:
+    myCustomKit:
+      - DIAMOND_SWORD
+      - DIAMOND_HELMET
+      - DIAMOND_CHESTPLATE
+      - DIAMOND_LEGGINGS
+      - DIAMOND_BOOTS
+      - GOLDEN_APPLE
+      - BOW
+      - ARROW
+      - DIAMOND_PICKAXE
+      - COOKED_BEEF
+      - IRON_AXE
+      - SHIELD

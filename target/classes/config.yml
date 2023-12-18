@@ -1,0 +1,9 @@
+messages:
+  wand-selection-first: "&aFirst wand point set at %location%"
+  wand-selection-second: "&aSecond wand point set at %location%"
+  kit-received: "&aKit received for region: %region%"
+  no-kit-defined: "&cNo kit defined for region: %region%"
+  inventory-cleared: "&aYour inventory has been cleared!"
+  wand-received: "&aYou received a wand!"
+
+# Add other configuration options as needed
